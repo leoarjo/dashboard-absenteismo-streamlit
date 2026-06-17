@@ -192,3 +192,7 @@ with aba3:
     m4.metric("RMSE (teste)", "12,1 h")
     st.caption("IRR > 1 aumenta a taxa esperada de horas; IRR < 1 reduz. "
                "Ex.: ausencias por doenca (CID) tem taxa 3,2x maior que consultas/exames.")
+    st.info("Os resultados desta aba referem-se ao modelo final, ajustado uma unica vez "
+            "na amostra de treino (70% da base completa). Por isso, eles NAO se alteram "
+            "com os filtros da barra lateral — que afetam apenas os paineis descritivos "
+            "das abas 'Retrato do periodo' e 'Relacoes entre variaveis'.")
